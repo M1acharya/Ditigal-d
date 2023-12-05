@@ -1,0 +1,186 @@
+/* style */
+* { 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+} 
+body { 
+    background-image: linear-gradient(rgb(53, 176, 176), rgb(80, 80, 80)); 
+    background-attachment: fixed; 
+    font-family: Arial, Helvetica, sans-serif; 
+} 
+.resume-builder { 
+    padding: 27px 100px; 
+} 
+.container { 
+    padding: 10px 30px; 
+    background: rgb(240, 240, 240); 
+    border-radius: 10px; 
+    height: auto; 
+    width: 60%; 
+    margin: auto; 
+} 
+.container h1 { 
+    text-align: center; 
+    background-color: rgb(159, 155, 155); 
+    padding: 10px; 
+    color: white; 
+    margin-bottom: 20px; 
+} 
+input, 
+textarea { 
+    background-color: transparent; 
+    margin: 10px 0; 
+    padding: 5px; 
+    outline: none; 
+    border: none; 
+    border-bottom: 2px solid rgb(153, 151, 151); 
+    display: block; 
+    width: 100%; 
+} 
+button { 
+    border: none; 
+    background-color: white; 
+    padding: 15px; 
+    border-radius: 7px; 
+    font-weight: bold; 
+    cursor: pointer; 
+    display: block; 
+    margin: auto; 
+    margin-bottom: 20px; 
+} 
+button:hover { 
+    font-size: medium; 
+} 
+.output-container { 
+    display: none; 
+    width: 60%; 
+    margin: 10px auto; 
+} 
+.output { 
+    background-color:rgb(72, 156, 162); 
+    border: 2px solid rgb(85, 65, 65); 
+    margin-bottom: 10px; 
+} 
+.heading { 
+    padding: 30px 10px; 
+    text-align: center; 
+    color: rgb(8, 8, 8); 
+    background-color: rgb(22, 200, 200); 
+    text-transform: uppercase; 
+} 
+.heading h4 { 
+    color: rgb(72, 49, 49); 
+    padding-top: px;
+} 
+.info { 
+    display: flex; 
+    padding: 80px; 
+} 
+.left { 
+    width: 40%; 
+    border-right: 2px dashed rgb(42, 72, 72); 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: space-evenly;
+
+} 
+.right { 
+    width: 60%; 
+    padding-left: 90px; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: space-evenly; 
+} 
+.box { 
+    margin: 10px 0; 
+    padding: 5px 10px; 
+    height: auto; 
+    overflow-wrap: break-word;
+     
+} 
+.box h2, 
+.box p { 
+    margin-bottom: 5px; 
+} 
+.tip { 
+    font-size: small; 
+    color:rgb(10, 105, 110);
+    text-align:center; 
+} 
+.credit { 
+    text-align: center; 
+    font-weight: bold; 
+    padding: 10px 3px; 
+    color: rgb(198, 143, 143);
+} 
+a { 
+    color: rgb(46, 171, 171); 
+} 
+a:hover { 
+    color: rgb(247, 28, 12); 
+    font-weight: bold; 
+} 
+/* media queries begin */
+@media screen and (max-width: 920px) { 
+    .container { 
+        width: 100%; 
+    } 
+    .output-container { 
+        width: 87%; 
+    } 
+} 
+  
+@media screen and (max-width: 600px) { 
+    .resume-builder { 
+        padding: 10px 30px; 
+    } 
+  
+    h1 { 
+        font-size: 160%; 
+    } 
+  
+    .info { 
+        flex-direction: column; 
+    } 
+  
+    .left { 
+        border-right: none; 
+        width: 100%; 
+    } 
+  
+    .right { 
+        padding-left: 0; 
+        width: 100%; 
+    } 
+} 
+
+h6{
+    text-align: center;
+}
+h2{
+    
+    text-align:left;
+    text-transform: uppercase;
+    margin-top: 20px;
+}  
+.cred{
+    text-align: center; 
+    font-weight: bold; 
+    padding: 10px 3px; 
+    color: rgb(198, 143, 143);
+    margin-bottom: 20px;
+}
+.btn{
+  text-align: center;
+  margin-top: 300px;
+    
+}
+h3{
+    text-align: center;
+    color: rgb(142, 20, 142);
+    margin-top: 20px;
+}
+.hed{
+    text-align: center;
+}
